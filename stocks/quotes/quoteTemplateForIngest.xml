@@ -554,7 +554,7 @@
       <id>eb244f5e-aaa3-1bba-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>1966.6847539018022</x>
+        <x>1966.6847539018017</x>
         <y>770.6956921464498</y>
       </position>
       <comments></comments>
@@ -568,7 +568,7 @@
       <id>eb244f5f-aaa3-1bba-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>2055.2694845762285</x>
+        <x>2055.269484576229</x>
         <y>499.6886564425422</y>
       </position>
       <comments></comments>
@@ -659,7 +659,7 @@
       <id>eb244f65-aaa3-1bba-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>1398.4282948088016</x>
+        <x>1398.428294808802</x>
         <y>0.0</y>
       </position>
       <config>
@@ -769,7 +769,7 @@
       <id>015a100f-46a9-12f6-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>2001.682994515833</x>
+        <x>2001.6829945158333</x>
         <y>225.0592041015625</y>
       </position>
       <config>
@@ -1510,7 +1510,7 @@
       <id>3d3a4495-7365-1c62-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>1381.008815503173</x>
+        <x>1381.0088155031735</x>
         <y>747.6914095063012</y>
       </position>
       <config>
@@ -1614,7 +1614,7 @@
       <id>6aeabec7-ec36-4ed5-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>1401.1344103942488</x>
+        <x>1401.1344103942483</x>
         <y>226.8112716414371</y>
       </position>
       <config>
@@ -1815,7 +1815,7 @@ COMPANY</value>
       <id>7c627365-3d3a-4495-0000-000000000000</id>
       <parentGroupId>f31ee9bf-015a-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>1403.373805737548</x>
+        <x>1403.3738057375485</x>
         <y>463.91699544380117</y>
       </position>
       <config>
@@ -2009,7 +2009,83 @@ COMPANY|string||1|0|0</value>
           </entry>
           <entry>
             <key>metadata.table.fieldPoliciesJson</key>
-            <value>[{"profile":true,"index":false,"fieldName":"TIMESTAMP_UNIX","feedFieldName":"TIMESTAMP_UNIX","standardization":[{"name":"Strip Non Numeric","displayName":null,"description":null,"shortDescription":null,"properties":[],"objectClassType":"com.thinkbiganalytics.policy.standardization.StripNonNumeric","objectShortClassType":"StripNonNumeric","propertyValuesDisplayString":null}],"validation":null},{"profile":true,"index":false,"fieldName":"CLOSE","feedFieldName":"CLOSE","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"HIGH","feedFieldName":"HIGH","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"LOW","feedFieldName":"LOW","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"OPEN","feedFieldName":"OPEN","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"VOLUME","feedFieldName":"VOLUME","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"CDAYS","feedFieldName":"CDAYS","standardization":null,"validation":null},{"profile":true,"index":false,"fieldName":"COMPANY","feedFieldName":"COMPANY","standardization":null,"validation":null}]</value>
+            <value>[
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "TIMESTAMP_UNIX",
+		"feedFieldName": "TIMESTAMP_UNIX",
+		"standardization": [
+			{
+				"name": "Strip Non Numeric",
+				"displayName": null,
+				"description": null,
+				"shortDescription": null,
+				"properties": [],
+				"objectClassType": "com.thinkbiganalytics.policy.standardization.StripNonNumeric",
+				"objectShortClassType": "StripNonNumeric",
+				"propertyValuesDisplayString": null
+			}
+		],
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "CLOSE",
+		"feedFieldName": "CLOSE",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "HIGH",
+		"feedFieldName": "HIGH",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "LOW",
+		"feedFieldName": "LOW",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "OPEN",
+		"feedFieldName": "OPEN",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "VOLUME",
+		"feedFieldName": "VOLUME",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "CDAYS",
+		"feedFieldName": "CDAYS",
+		"standardization": null,
+		"validation": null
+	},
+	{
+		"profile": true,
+		"index": true,
+		"fieldName": "COMPANY",
+		"feedFieldName": "COMPANY",
+		"standardization": null,
+		"validation": null
+	}
+]</value>
           </entry>
           <entry>
             <key>metadata.table.fieldStructure</key>
@@ -2070,5 +2146,5 @@ COMPANY|string||1|0|0</value>
       <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
     </processors>
   </snippet>
-  <timestamp>05/18/2017 19:10:52 UTC</timestamp>
+  <timestamp>05/18/2017 19:26:37 UTC</timestamp>
 </template>
