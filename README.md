@@ -35,6 +35,7 @@ Concerning the getTwitter processus make sure the clock on the sandox and the ho
 `service ntpd stop`
 At home use `ntpdate pool.ntp.org` 
 At teradata office use `ntpdate -vd time01.teradata.com`
+You may also set those two adress in the file `/etc/ntp/step-tickers`
 `service ntpd start`
 
 Use `time01.teradata.com`
