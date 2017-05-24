@@ -19,7 +19,7 @@ https://www.google.com/finance/getprices?q=MMM&i=86400&p=40Y&f=d,c,v,k,o,h,l&df=
 Note that if you want the last quote from the day you should use the following request : 
 https://www.google.com/finance/getprices?q=GOOG&i=86400&p=2d&f=d,c,v,k,o,h,l&df=cpct&auto=0&ei=Ef6XUYDfCqSTiAKEMg
 
-Some documentation on google financial api may be found on the [unofficial documentation](http://www.networkerror.org/component/content/article/1-technical-wootness/44-googles-undocumented-finance-api.html)
+Some documentation on google financial api may be found on the [unofficial documentation](http://www.networkerror.org/component/content/article/1-technical-wootness/44-googles-undocumented-finance-api.html).
 
 
 
