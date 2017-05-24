@@ -21,8 +21,6 @@ https://www.google.com/finance/getprices?q=GOOG&i=86400&p=2d&f=d,c,v,k,o,h,l&df=
 
 Some documentation on google financial api may be found on the [unofficial documentation](http://www.networkerror.org/component/content/article/1-technical-wootness/44-googles-undocumented-finance-api.html).
 
-
-
 ## News 
 
 ### Twitter
@@ -37,3 +35,25 @@ To be defined.
 ### Financial Times 
 To be defined.
 
+
+## Kibana 
+
+Elastic is already installed in Kylo (port __9200__ and port __9300__).
+In order to have a description of your index you may use the curl command : code(curl -XGET 'localhost:9200/_cat/indices?v&pretty').
+
+In order to setup Kibana you should follow [this tutorial ](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-centos-7), main steps are : 
+* Downlaod and install Kibana as a service.
+* use Nginx as a reverse proxy. 
+
+You could use the port __8989__ for kibana. 
+
+In the configuration file, instead of using __example.com__  you may use __sandbox.kylio.io__.
+
+
+
+
+
+
+## Documentation 
+
+In order to update this document you may use this [markdown-cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md).
