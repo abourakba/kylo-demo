@@ -39,7 +39,8 @@ To be defined.
 ## Kibana 
 
 Elastic is already installed in Kylo (port __9200__ and port __9300__).
-In order to have a description of your index you may use the curl command : code(curl -XGET 'localhost:9200/_cat/indices?v&pretty').
+In order to have a description of your index you may use the curl command : `curl -XGET 'localhost:9200/_cat/indices?v&pretty' `.
+
 
 In order to setup Kibana you should follow [this tutorial ](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-centos-7), main steps are : 
 * Downlaod and install Kibana as a service.
