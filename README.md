@@ -29,6 +29,18 @@ This directory all the stuff related to twitter ingestion :
 * A generic feed to ingest twitter news .  
 * A generic feed to ingest twitter news related to google. 
 
+Concerning the getTwitter processus make sure the clock on the sandox and the host are ok. 
+
+`yum install -y ntp`
+`service ntpd stop`
+At home use `ntpdate pool.ntp.org` 
+At teradata office use `ntpdate -vd time01.teradata.com`
+`service ntpd start`
+
+Use `time01.teradata.com`
+
+
+
 ### Yahoo News 
 To be defined.
 
