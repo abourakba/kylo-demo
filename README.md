@@ -34,11 +34,11 @@ Concerning the getTwitter processus make sure the clock on the sandox and the ho
 `yum install -y ntp`
 `service ntpd stop`
 At home use `ntpdate pool.ntp.org` 
-At teradata office use `ntpdate -vd XXXX.teradata.com`
+At teradata office use `ntpdate -vd XXXXXX.teradata.com`
 You may also set those two adress in the file `/etc/ntp/step-tickers`
 `service ntpd start`
 
-Use `time01.teradata.com`
+Use `XXXXXX.teradata.com`
 
 
 
@@ -62,9 +62,6 @@ In order to setup Kibana you should follow [this tutorial ](https://www.digitalo
 You could use the port __8989__ for kibana. 
 
 In the configuration file, instead of using __example.com__  you may use __sandbox.kylio.io__.
-
-
-
 
 
 
