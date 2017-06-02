@@ -3,7 +3,7 @@
 ## Company
 
 The campany directory is composed of a feed and some file to ingest. 
-* The template should be imported in Kylo : [companies.feed.zip](stocks/compagnies/feed/compagnies.feed.zip ) (Feed => + => Import File ) 
+* The feed should be imported in Kylo : [companies.feed.zip](stocks/compagnies/feed/compagnies.feed.zip ) (Feed => + => Import File ) 
 * A file to ingest with the list of the company : [companies.csv](stocks/compagnies/input/compagnies.csv )
 * A sample to use when creating the feed : compagnies-sample.csv  [companies-sample.csv](stocks/compagnies/input/compagnies-sample.csv) 
 
